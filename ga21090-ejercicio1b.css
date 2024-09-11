@@ -1,0 +1,181 @@
+/* General styling for the whole document */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+fichero {
+    display: block;
+    padding: 20px;
+    border: 2px solid #007bff;
+    background-color: #e7f3ff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Styling individual 'ficha' elements */
+ficha {
+    display: block;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #28a745;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+ficha nombre, ficha apellido, ficha direccion {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+ficha nombre::before {
+    content: "Nombre: ";
+    color: #17a2b8;
+}
+
+ficha apellido::before {
+    content: "Apellido: ";
+    color: #17a2b8;
+}
+
+ficha direccion::before {
+    content: "Dirección: ";
+    color: #17a2b8;
+}
+
+/* Styling 'misdatos' section */
+misdatos {
+    display: block;
+    padding: 15px;
+    background-color: #f0f4f8;
+    border-left: 5px solid #17a2b8;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+misdatos nombre, misdatos apellido, misdatos edad, misdatos estatura, misdatos peso, misdatos telefono, misdatos correo {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+misdatos nombre::before {
+    content: "Nombre: ";
+    color: #007bff;
+}
+
+misdatos apellido::before {
+    content: "Apellido: ";
+    color: #007bff;
+}
+
+misdatos edad::before {
+    content: "Edad: ";
+    color: #007bff;
+}
+
+misdatos estatura::before {
+    content: "Estatura: ";
+    color: #007bff;
+}
+
+misdatos peso::before {
+    content: "Peso: ";
+    color: #007bff;
+}
+
+misdatos telefono::before {
+    content: "Teléfono: ";
+    color: #007bff;
+}
+
+misdatos correo::before {
+    content: "Correo: ";
+    color: #007bff;
+}
+
+/* Styling for 'datosextras' inside 'misdatos' */
+datosextras {
+    display: block;
+    padding: 10px;
+    background-color: #e9ecef;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+datosextras dui::before, datosextras isss::before, datosextras afp::before {
+    content: "";
+    font-weight: bold;
+    color: #495057;
+}
+
+datosextras dui::before {
+    content: "DUI: ";
+}
+
+datosextras isss::before {
+    content: "ISSS: ";
+}
+
+datosextras afp::before {
+    content: "AFP: ";
+}
+
+/* Styling 'preguntas' section */
+preguntas {
+    display: block;
+    padding: 15px;
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+pregunta::before {
+    content: "Pregunta: ";
+    font-weight: bold;
+    color: #856404;
+}
+
+respuesta::before {
+    content: "Respuesta: ";
+    font-weight: bold;
+    color: #856404;
+}
+
+
+
+/* Estilo para la división principal */
+división {
+    border: 2px solid #ddd;
+    padding: 5px;
+    margin-bottom:10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los párrafos */
+párrafo {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Estilo para el enlace dentro del párrafo */
+párrafo a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+/* Estilo cuando pasas el ratón sobre el enlace */
+párrafo a:hover {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+}

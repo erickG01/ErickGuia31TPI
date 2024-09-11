@@ -1,0 +1,114 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+pais {
+    display: block;
+    border: 2px solid #0066cc;
+    padding: 15px;
+    background-color: #e6f2ff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+departamento {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #d9eaf7;
+    border-left: 5px solid #0066cc;
+    border-radius: 5px;
+}
+
+departamento cabecera, departamento habitantes, departamento altura, departamento temperatura {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+cabecera::before {
+    content: "Cabecera: ";
+    font-weight: bold;
+    color: #004080;
+}
+
+habitantes::before {
+    content: "Habitantes: ";
+    font-weight: bold;
+    color: #004080;
+}
+
+altura::before {
+    content: "Altura: ";
+    font-weight: bold;
+    color: #004080;
+}
+
+temperatura::before {
+    content: "Temperatura: ";
+    font-weight: bold;
+    color: #004080;
+}
+
+pregunta, respuesta {
+    display: block;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+pregunta {
+    font-weight: bold;
+    background-color: #ffe6e6;
+}
+
+respuesta {
+    background-color: #e6ffe6;
+}
+
+/* Additional space and styling for department sections */
+departamento {
+    margin-bottom: 15px;
+}
+
+departamento:last-child {
+    margin-bottom: 0;
+}
+
+/* Estilo para la división principal */
+división {
+    border: 2px solid #ddd;
+    padding: 5px;
+    margin-bottom:10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los párrafos */
+párrafo {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Estilo para el enlace dentro del párrafo */
+párrafo a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+/* Estilo cuando pasas el ratón sobre el enlace */
+párrafo a:hover {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+}

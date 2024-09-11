@@ -1,0 +1,35 @@
+{
+    "pais": {
+        "-nombre": "El Salvador",
+        "-moneda": "Dolar Estado Unidense",
+        "-codigoTelefonico": "+503",
+        "-idioma": "Latino",
+        "-areaTerritorial": "21,041 km²",
+        "departamento": [
+            {
+                "-id": "1",
+                "-nombre": "San Salvador",
+                "cabecera": "San Salvador",
+                "habitantes": "1,700,000",
+                "altura": "545 MSNM"
+            },
+            {
+                "-id": "2",
+                "-nombre": "Chalatenango",
+                "cabecera": "Chalatenango",
+                "habitantes": "32.272",
+                "altura": "396 MSNM"
+            },
+            {
+                "-id": "3",
+                "-nombre": "Santa Ana",
+                "cabecera": "Santa Ana",
+                "habitantes": "272,000",
+                "altura": "665 MSNM",
+                "temperatura": "29°C"
+            }
+        ],
+        "pregunta": "¿A partir del ejemplo 2 y ejercicios desarrollados hasta el momento que puede concluir?",
+        "respuesta": "Puedo concluir que puedo agragar atributos dentro de los elementos"
+    }
+}

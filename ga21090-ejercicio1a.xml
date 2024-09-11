@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="ga21090-ejercicio1a.css"?>
+<fichero>
+<ficha id="1" fechaingreso="1/11/2012">
+<nombre>Antonio</nombre>
+<apellido>Barbero</apellido>
+<direccion>Calle de Los Andes, 45</direccion>
+</ficha>
+
+
+<misdatos>
+<nombre>Erick Gabriel </nombre>
+<apellido>Girón Alvarenga</apellido>
+<edad>14 años</edad>
+<estatura>1.70 m</estatura>
+<peso>80 kg</peso>
+<telefono>+503 87452136</telefono>
+<correo>ga21090@ues.edu.sv</correo>
+</misdatos>
+
+<documento xml:lang="es">
+	<división>
+	
+		<párrafo><a href="index.html" xmlns="http://www.w3.org/1999/xhtml">Regresar</a></párrafo>
+	</división>
+</documento>
+
+
+
+</fichero>
